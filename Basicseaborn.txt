@@ -1,0 +1,4 @@
+import seaborn as sns
+
+a=sns.load_dataset('tips')
+print(a.head())

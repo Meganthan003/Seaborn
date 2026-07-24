@@ -26,3 +26,6 @@ plt.show()
 
 sns.boxplot(x='day', y='total_bill', data=a ,hue='smoker')
 plt.show()
+
+sns.violinplot(x='day', y='total_bill', data=a ,hue='sex',split=True)
+plt.show()
